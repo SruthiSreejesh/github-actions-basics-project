@@ -3,9 +3,10 @@ name: "Simple GithubAction Workflow"
 on:
   push:
     branches:
-    -main
-    -master
-    -production
+    - main
+    - master
+    - production
+
 jobs:
 
   job1:
