@@ -46,7 +46,7 @@ jobs:
         unzip terraform_1.12.2_linux_amd64.zip
         ./terraform version
 
-- name: "Working Directory Details After Terraform Installation"
+    - name: "Working Directory Details After Terraform Installation"
       run: |
         pwd
         ls -al
